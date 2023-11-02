@@ -21,7 +21,7 @@
     color: #880000;
 }
 
-.gray {
+.grey {
     color: #808080;
 }
 
@@ -47,17 +47,17 @@
     color: black;
 }
 
-.red-flash {
+.flash-red {
     transition: background-color 1s;
     background-color: #FFCCCC !important;  
 } 
 
-.green-flash {
+.flash-green {
     transition: background-color 1s;
     background-color: #CCFFCC !important;  
 }
 
-.gray-flash {
+.flash-grey {
     transition: background-color 1s;
     background-color: #CCC !important;  
 }
