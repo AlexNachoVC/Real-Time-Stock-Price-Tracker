@@ -1,19 +1,5 @@
 # Real-Time Stock Price Tracker
 
-## Table of Contents
-
-- [Project Description](#project-description)
-- [Features](Features)
-- [Usage Instructions](#usage-instructions)
-- [File Explanations](#file-explanations)
-  - [`app.py`](#apppy)
-  - [`script.js`](#scriptjs)
-  - [`index.html`](#indexhtml)
-  - [`style.css`](#stylecss)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Project Description
 
 This project is a real-time stock price tracker that fetches and displays the current stock prices of specified ticker symbols. This application allows users to track the prices of their favorite stocks. Users can add and remove stocks, and the prices are updated every 15 seconds.
@@ -33,7 +19,7 @@ This project is a real-time stock price tracker that fetches and displays the cu
 
 ## File Explanations
 
-### `app.py` File Explanation
+### `app.py` 
 
 This is the main server file for the application. It uses the Flask framework to handle HTTP requests and responses.
 
@@ -52,7 +38,7 @@ The server is run with `app.run(debug=True)` if the script is run directly (i.e.
 
 
 
-### `script.js` File Explanation
+### `script.js` 
 
 This is the main JavaScript file for the application. It handles the dynamic functionality of the web page, including fetching and displaying stock data, and updating the data at regular intervals.
 
@@ -82,7 +68,7 @@ This is the main JavaScript file for the application. It handles the dynamic fun
 
 
 
-### `index.html` File Explanation
+### `index.html` 
 
 This is the main HTML file for the application. It defines the structure of the web page and includes links to the CSS and JavaScript files.
 
@@ -113,7 +99,7 @@ This is the main HTML file for the application. It defines the structure of the 
 - `<div id="tickers-grid">`: This div element is used to display the grid of ticker symbols and their prices.
 
 
-### `style.css` File Explanation
+### `style.css` 
 
 This is the main CSS file for the application. It defines the styles for the HTML elements.
 
